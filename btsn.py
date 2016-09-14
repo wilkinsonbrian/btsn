@@ -1,11 +1,12 @@
 # Welcome to Back to School Night!
 
-# This is a comment and is ignored by the computer.  They are used to make a program
-# easier to read by humans.  Comments always start with a "#" sign.
 # Tonight you are going to create simple programs using Python and Turtle.
+# You may be wondering why there are a bunch of "# symbols at the start of each line.
+# Those are comments which are ignored by the computer.  Comments are used to make a program
+# easier to read by humans.  Comments always start with a "#" sign.
 
 # The line below allows python to use turtle commands. Notice it does NOT have a "#" in front.  This means
-# the computer will try to follow the instruction.
+# the computer will try to execute the instruction.
 
 import turtle
 
@@ -16,9 +17,10 @@ turtle.forward(100)
 
 # To see what this line does, go to the Run menu and choose Run.  Then choose btsn.  A new window should open
 # and you should see a line with a triangle shape at the end.  That triangle is the turtle (you have to use
-# your imagination a bit).
+# your imagination a bit).  If you don't immediately see the window, click on the Rocket Ship icon in the
+# dock on the bottom of the screen.
 
-# Challenge 1 - Change the command in line 14 so that the turtle goes forward 200 pixels.  When finished, run
+# Challenge 1 - Change the command in line 16 so that the turtle goes forward 200 pixels.  When finished, run
 # the program again.
 
 # The turtle can do other things as well.  For example, the turtle can turn left or right.  The command below causes
@@ -27,7 +29,7 @@ turtle.forward(100)
 
 #turtle.left(90)
 
-# Notice that the turtle is now facing "up."  Remove the "#" from line 33 and run the program to see that the
+# Notice that the turtle is now facing "up."  Remove the "#" from line 35 and run the program to see that the
 # turtle goes forward in the direction it is facing.
 
 #turtle.forward(200)
